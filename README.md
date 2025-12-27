@@ -7,6 +7,23 @@
 
 ### Решение 1
 
+```
+ersion: '3.9'
+
+services:
+  elasticsearch:
+    image: elasticsearch:9.1.3
+    container_name: elasticsearch
+    ports:
+      - 9200:9200
+    environment:
+      - discovery.type=single-node
+      - xpack.security.enabled=false
+      - cluster.name=pervushin_cluster
+``` 
+
+![Решение1](https://github.com/Divan4eg/elk_homework/blob/main/img/1.png)
+
 ### Задание 2. Kibana
 Установите и запустите Kibana.
 
