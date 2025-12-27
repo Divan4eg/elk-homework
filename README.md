@@ -8,7 +8,7 @@
 ### Решение 1
 
 ```
-ersion: '3.9'
+version: '3.9'
 
 services:
   elasticsearch:
@@ -22,7 +22,7 @@ services:
       - cluster.name=pervushin_cluster
 ``` 
 
-![Решение1](https://github.com/Divan4eg/elk_homework/blob/main/img/1.png)
+![Решение1](https://github.com/Divan4eg/elk-homework/blob/main/img/1.png)
 
 ### Задание 2. Kibana
 Установите и запустите Kibana.
