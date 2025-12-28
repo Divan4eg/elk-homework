@@ -31,6 +31,18 @@ services:
 
 ### Решение 2
 
+```
+  kibana:
+    image: kibana:9.1.3
+    container_name: kibana
+    ports:
+      - 5601:5601
+    depends_on:
+      - elasticsearch
+``` 
+
+![Решение2](https://github.com/Divan4eg/elk-homework/blob/main/img/2.png)
+
 ### Задание 3. Logstash
 Установите и запустите Logstash и Nginx. С помощью Logstash отправьте access-лог Nginx в Elasticsearch.
 
