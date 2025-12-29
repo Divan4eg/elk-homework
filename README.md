@@ -50,6 +50,8 @@ services:
 
 ### Решение 3
 
+![Решение3](https://github.com/Divan4eg/elk-homework/blob/main/img/3.png)
+
 ### Задание 4. Filebeat.
 Установите и запустите Filebeat. Переключите поставку логов Nginx с Logstash на Filebeat.
 
