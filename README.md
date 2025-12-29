@@ -58,3 +58,11 @@ services:
 Приведите скриншот интерфейса Kibana, на котором видны логи Nginx, которые были отправлены через Filebeat.
 
 ### Решение 4
+
+### Все 3 data-view, созданные по заданиям 3-4
+![Решение4](https://github.com/Divan4eg/elk-homework/blob/main/img/4.png)
+
+
+### Сам просмотр логов доступа и ошибок Nginx
+![Решение4](https://github.com/Divan4eg/elk-homework/blob/main/img/5.png)
+![Решение4](https://github.com/Divan4eg/elk-homework/blob/main/img/6.png)
